@@ -7,7 +7,7 @@
 #define DHTIPO DHT22
 #define DHTPIN1 9 //Blanco 1
 #define DHTPIN2 8  // Blanco 2 
-#define DHTPIN3 11  // Salida
+#define DHTPIN3 11  // Azul Salida
 
 DHT dht(DHTPIN, DHTTYPE);
 DHT dht1(DHTPIN1, DHTIPO);//DHT22
